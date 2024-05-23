@@ -1,0 +1,16 @@
+# Ignore node_modules and build output
+node_modules
+build
+
+# Ignore log files
+*.log
+
+# Ignore local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore any other file or directory you do not want to include in the Docker build
+.DS_Store
+*.swp
